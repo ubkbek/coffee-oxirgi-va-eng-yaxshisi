@@ -1,0 +1,124 @@
+.hero {
+    margin-bottom: 136px;
+
+    &__container {
+        display: flex;
+        justify-content: start;
+        padding-top: 117px;
+        padding-left: 85px;
+        padding-bottom: 116px;
+        background-image: url("./../images/hero-bg.avif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-position: center;
+        border-radius: 10px;
+    }
+
+    &__box {
+        max-width: 493px;
+        width: 100%;
+        color: $light_cream;
+
+    }
+
+    &__heading {
+        font-family: Fraunces, serif;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: Barlow, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        mix-blend-mode: normal;
+        margin-bottom: 56px;
+        opacity: 0.8;
+    }
+
+
+
+    // Tablet devoces
+    @media only screen and (max-width: 900px) {
+        margin-bottom: 144px;
+
+        &__container {
+            padding-top: 104px;
+            padding-left: 58px;
+            padding-bottom: 104px;
+        }
+
+        &__box {
+            max-width: 398px;
+            width: 100%;
+
+        }
+
+        &__heading {
+            margin-bottom: 24px;
+            font-size: 48px;
+            line-height: 48px;
+        }
+
+        &__text {
+            margin-bottom: 40px;
+            font-size: 15px;
+            line-height: 25px;
+            max-width: 398px;
+            width: 100%;
+        }
+    }
+
+
+
+    // Mobile devices
+    @media only screen and (max-width:520px) {
+        margin-bottom: 120px;
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 100px 24px;
+        }
+
+        &__box {
+            max-width: 279px;
+            text-align: center;
+        }
+
+        &__heading {
+            margin-bottom: 24px;
+            font-size: 40px;
+            line-height: 40px;
+        }
+
+        &__text {
+            margin-bottom: 39px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  /* Retina-specific stuff here */
+  .hero{
+        &__container {
+        background-image: url("./../images/hero-bg@2x.png");
+    }
+  }
+
+
+}

@@ -1,0 +1,144 @@
+.footer {
+
+    &__container {
+        background-color:#2C343E;
+        padding: 47px 85px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__wrapper{
+        max-width: 622px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo-link {
+        display: inline-block;
+    }
+
+    &__logo-img {
+        width: 236px;
+        height: 26px;
+    }
+
+    &__sotsial-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    &__sotsial-item + &__sotsial-item {
+        margin-left: 24px;
+    }
+
+    &__sotsial-link {
+        display: inline-block;
+    }
+
+    &__sotsial-img{
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+    }
+
+    &__nav-link{
+        color:  #83888F;
+
+        &:hover{
+            background: #FFFFFF;
+            border: 1px solid #000000;
+            box-shadow: 0px 1px 2px #000000;
+        }
+    }
+
+    &__nav-link--active{
+        color: #fff;
+    }
+
+
+
+     // Tablet devices
+
+    @media only screen and (max-width:1100px) {
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            padding-top: 55px;
+            padding-bottom: 55px;
+
+        }
+
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 65px;
+        }
+
+        &__logo-link {
+            display: inline-block;
+        }
+
+        &__logo-img {
+            margin-bottom: 32px;
+        }
+        }
+
+
+
+
+        // Mobile devices
+        @media only screen and (max-width:700px) {
+
+
+            &__wrapper{
+                max-width: 622px;
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            &__logo-img {
+                width: 218px;
+                height: 24px;
+                margin-bottom: 48px;
+            }
+
+            &__nav-list{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            &__nav-item{
+                margin-bottom: 24px;
+            }
+
+            &__nav-item + &__nav-item{
+                margin-left: 0px;
+            }
+
+
+
+            &__nav-link{
+                color:  #83888F;
+
+                &:hover{
+                    background: #FFFFFF;
+                    border: 1px solid #000000;
+                    box-shadow: 0px 1px 2px #000000;
+                }
+            }
+
+            &__nav-link--active{
+                color: #fff;
+            }
+
+        }
+
+    }

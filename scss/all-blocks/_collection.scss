@@ -1,0 +1,138 @@
+.collection {
+    margin-bottom: 200px;
+
+    &__container {
+        margin-left: 85px;
+        margin-right: 85px;
+        padding-top: 126px;
+        background-image: url("./../images/collection-bg.svg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        object-position: contain;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__item {
+        max-width: 255px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: $dark_grey_blue;
+    }
+
+    &__item + &__item {
+        padding-left: 30px;
+    }
+
+    &__img {
+        width: 255px;
+        height: 193px;
+        margin-bottom: 71px;
+    }
+
+    &__heading {
+        font-family: Fraunces, serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        font-family: Barlow, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+
+    // Tablet devices
+    @media only screen and (max-width:1050px) {
+        &__container {
+            padding-top: 59px;
+            margin-bottom: 144px;
+        }
+
+        &__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        &__item {
+            max-width: 573px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 48px;
+        }
+
+
+        &__wrapper{
+            max-width: 282px;
+            width: 100%;
+            text-align: left;
+        }
+
+        &__item + &__item {
+            padding-left: 0;
+        }
+
+        &__img {
+            margin-bottom: 0px;
+        }
+
+        &__heading {
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+    }
+
+
+
+    // Mobile devices
+
+    @media only screen and (max-width:720px) {
+        margin-bottom: 120px;
+
+        &__container {
+            padding-top: 85px;
+        }
+
+
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__wrapper{
+            text-align: center;
+        }
+
+        &__img {
+            width: 200px;
+            height: 151px;
+            margin-bottom:24px;
+        }
+
+        &__heading {
+            margin-bottom: 16px;
+        }
+    }
+}
