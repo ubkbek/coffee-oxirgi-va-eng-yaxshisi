@@ -1108,6 +1108,8 @@ img {
             align-items: center;
   }
   .reasons__item {
+    max-width: 279px;
+    width: 100%;
     padding: 72px 33px 51px 33px;
     display: -webkit-box;
     display: -ms-flexbox;

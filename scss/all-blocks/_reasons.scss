@@ -219,6 +219,8 @@
         }
 
         &__item {
+            max-width: 279px;
+            width: 100%;
             padding: 72px 33px 51px 33px;
             display: flex;
             flex-direction: column;
