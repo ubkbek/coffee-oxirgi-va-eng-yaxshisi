@@ -101,25 +101,26 @@
             text-align: center;
             color: #333D4B;
         }
+        // @media only screen and (max-width:520) {
+        //     padding-top: 33px;
+        //     padding-bottom: 40px;
+        //     .header--open .header {
+        //         &__navbar{
+        //             display: none;
+        //         }
+
+        //         &__on {
+        //             display: none;
+        //         }
+
+        //         &__off {
+        //             display: block;
+        //         }
+        //     }
+        // }
     }
 
-    @media only screen and (max-width:520) {
-        padding-top: 33px;
-        padding-bottom: 40px;
-    .header--open .header {
-        &__navbar{
-            display: block;
-        }
 
-        &__on {
-            display: none;
-        }
-
-        &__off {
-            display: block;
-        }
-    }
-    }
 
 
 
