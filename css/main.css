@@ -1301,6 +1301,7 @@ img {
     margin-bottom: 79px;
   }
   .process__item {
+    max-width: 327px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1321,6 +1322,7 @@ img {
     text-align: center;
   }
   .process__small-heading {
+    max-width: 327px;
     width: 100%;
     font-size: 28px;
     line-height: 32px;
@@ -1329,8 +1331,8 @@ img {
   }
   .process__text {
     max-width: 100%;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 15px;
+    line-height: 25px;
     text-align: center;
     margin-bottom: 56px;
   }
@@ -1498,6 +1500,9 @@ img {
     padding-bottom: 0px;
     font-size: 12px;
     line-height: 15px;
+  }
+  .footer body {
+    padding-bottom: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */
