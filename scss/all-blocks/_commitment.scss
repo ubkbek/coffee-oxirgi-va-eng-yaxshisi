@@ -1,0 +1,124 @@
+.commitment {
+    margin-bottom: 256px;
+
+    &__container {
+        // padding-left: 85px;
+        // padding-right: 85px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__img{
+        max-width: 445px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-right: 125px;
+
+    }
+
+    &__box {
+        max-width: 540px;
+        width: 100%;
+        color: $dark_grey_blue;
+    }
+
+    &__heading {
+        font-family: Fraunces, serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: Barlow, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+
+
+
+    // Tablet divices
+    @media only screen and (max-width:1050px) {
+        &__box {
+            max-width: 339px;
+            width: 100%;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 30px;
+        }
+
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        &__img{
+            max-width: 380px;
+            margin-right: 80px;
+        }
+    }
+
+
+    @media only screen and (max-width:800px) {
+        margin-bottom: 320px;
+
+        &__container {
+            justify-content: space-between;
+        }
+
+
+        &__img{
+            max-width: 281px;
+            min-height: 470px;
+            margin-right: 68px;
+        }
+
+        &__box {
+            max-width: 339px;
+            width: 100%;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 30px;
+        }
+
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+
+
+    // Mobile devisec
+    @media only screen and (max-width:680px) {
+        margin-bottom: 198px;
+
+        &__container {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        &__img{
+            margin: 0;
+            max-width: 100%;
+            margin-bottom: 48px;
+        }
+
+        &__box {
+            max-width: 100%;
+        }
+    }
+}

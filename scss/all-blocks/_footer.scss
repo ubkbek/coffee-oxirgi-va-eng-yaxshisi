@@ -44,6 +44,16 @@
         width: 24px;
         height: 24px;
         object-fit: contain;
+
+        &:hover{
+            transform: scale(1.2);
+            transition: 0.3;
+            // transform: rotate(360deg),scale(1.2);
+            // transition: 0.3s;
+            path{
+                fill: #FDD6BA;
+            }
+        }
     }
 
     &__nav-link{
