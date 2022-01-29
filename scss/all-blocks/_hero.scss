@@ -2,11 +2,11 @@
     margin-bottom: 136px;
 
     &__container {
-        display: flex;
-        justify-content: start;
         padding-top: 117px;
         padding-left: 85px;
         padding-bottom: 116px;
+        display: flex;
+        justify-content: start;
         background-image: url("./../images/hero-bg.avif");
         background-repeat: no-repeat;
         background-position: center;

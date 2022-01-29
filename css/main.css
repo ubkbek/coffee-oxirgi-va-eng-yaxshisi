@@ -589,15 +589,15 @@ img {
 }
 
 .hero__container {
+  padding-top: 117px;
+  padding-left: 85px;
+  padding-bottom: 116px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  padding-top: 117px;
-  padding-left: 85px;
-  padding-bottom: 116px;
   background-image: url("./../images/hero-bg.avif");
   background-repeat: no-repeat;
   background-position: center;
@@ -711,8 +711,8 @@ img {
 }
 
 .collection__container {
-  margin-left: 85px;
-  margin-right: 85px;
+  padding-left: 85px;
+  padding-right: 85px;
   padding-top: 126px;
   background-image: url("./../images/collection-bg.svg");
   background-repeat: no-repeat;
@@ -780,6 +780,8 @@ img {
   .collection__container {
     padding-top: 59px;
     margin-bottom: 144px;
+    padding-left: 60px;
+    padding-right: 60px;
   }
   .collection .container {
     padding-left: 15px;
@@ -844,6 +846,8 @@ img {
   }
   .collection__container {
     padding-top: 85px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .collection__item {
     -webkit-box-orient: vertical;
@@ -866,6 +870,10 @@ img {
   }
   .collection__heading {
     margin-bottom: 16px;
+  }
+  .collection__text {
+    max-width: 282px;
+    width: 100%;
   }
 }
 
@@ -1334,9 +1342,10 @@ img {
         -ms-flex-align: center;
             align-items: center;
     margin-bottom: 79px;
+    max-width: 327px;
+    width: 100%;
   }
   .process__item {
-    max-width: 327px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1478,6 +1487,10 @@ img {
   .footer .container {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .footer__container {
+    padding-left: 0;
+    padding-right: 0;
   }
   .footer__wrapper {
     -webkit-box-orient: vertical;
@@ -2064,7 +2077,7 @@ img {
   .headquarters__item + .headquarters__item {
     margin-left: 0;
   }
-  .headquarters__item1:not(last) {
+  .headquarters__item:not(last) {
     margin-bottom: 80px;
   }
   .headquarters__small-heading {
