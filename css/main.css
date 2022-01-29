@@ -1807,6 +1807,10 @@ img {
   .quality {
     margin-bottom: 120px;
   }
+  .quality .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .quality__container {
     padding: 142px 24px 61px 24px;
   }
