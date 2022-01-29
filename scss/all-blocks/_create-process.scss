@@ -1,0 +1,16 @@
+.create-process__container{
+    background-color:#2C343E;
+    border-radius: 10px;
+    padding: 100px 85px 100px 85px;
+
+    .process{
+        &__small-heading{
+            color: #FEFCF7;
+        }
+
+        &__text{
+            color: #FEFCF7;
+        }
+    }
+
+}

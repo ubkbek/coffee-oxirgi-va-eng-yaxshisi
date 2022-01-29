@@ -1,0 +1,89 @@
+.create-hero {
+    margin-bottom: 177px;
+
+    &__container {
+        padding: 134px 0px 134px 85px;
+        background-image: url("./../../images/create-hero-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        object-position: center;
+        border-radius: 10px;
+        color: $light_cream;
+    }
+
+    &__box {
+        max-width: 485px;
+        width: 100%;
+    }
+
+    &__heading {
+        font-family: Fraunces, serif;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: Barlow, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+
+
+    // Tablet devices
+    @media only screen and (max-width: 800px) {
+        margin-bottom: 144px;
+
+        &__container {
+            padding-top: 127px;
+            padding-bottom: 128px;
+            padding-left: 58px;
+
+        }
+
+        &__box {
+            max-width: 398px;
+            width: 100%;
+        }
+
+        &__heading {
+            font-size: 48px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+
+
+    // Mobile devices
+    @media only screen and (max-width:500px) {
+        margin-bottom: 120px;
+
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+            &__container {
+                padding: 101px 24px 134px 24px;
+            }
+
+            &__box {
+                text-align: center;
+            }
+
+            &__heading {
+                font-size: 40px;
+                line-height: 40px;
+                margin-bottom: 22px;
+            }
+    }
+}
