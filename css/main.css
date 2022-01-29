@@ -373,10 +373,6 @@ template {
   src: url("../fonts/fraunces-v10-latin-900.woff2") format("woff2"), url("../fonts/fraunces-v10-latin-900.woff") format("woff");
 }
 
-html {
-  height: 100%;
-}
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
