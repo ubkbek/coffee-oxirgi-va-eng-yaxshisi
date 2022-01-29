@@ -1,0 +1,102 @@
+.quality {
+    margin-bottom: 368px;
+
+    &__container {
+        background: #2C343E;
+        border-radius: 10px;
+        padding: 88px 85px 176px 85px;
+        position: relative;
+    }
+
+    &__box {
+        max-width: 540px;
+        width: 100%;
+        color: $light_cream;
+    }
+
+    &__heading {
+        font-family: Fraunces, serif;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 32px;
+    }
+
+    &__text {
+        font-family: Barlow, Arial, sans-serif;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 0.8;
+    }
+
+    &__img{
+        border-radius: 10px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        right: 85px;
+        transform: translateY(-88px);
+    }
+
+
+    // Tablet devices
+
+    @media only screen and (max-width:1200px) {
+        margin-bottom: 128px;
+
+        &__container {
+            padding: 224px 74px 83px 74px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__box {
+            max-width: 800px;
+            text-align: center;
+        }
+
+        &__heading {
+            font-size: 32px;
+            line-height: 48px;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            font-size: 15px;
+            line-height: 25px;
+        }
+
+        &__img{
+            width: 573px;
+            height: 320px;
+            object-position: bottom;
+            position: absolute;
+            right: 50%;
+            transform: translate(50%, -50%);
+        }
+    }
+
+
+    // Mobile divices
+
+    @media only screen and (max-width:800px) {
+        margin-bottom:120px;
+
+        &__container {
+            padding: 142px 24px 61px 24px;
+        }
+
+        &__heading {
+            font-size: 28px;
+            line-height: 28px;
+        }
+
+        &__img{
+            width: 279px;
+            height: 156px;
+            margin-bottom: 64px;
+        }
+    }
+}
