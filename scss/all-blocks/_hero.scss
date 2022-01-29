@@ -42,9 +42,14 @@
 
 
 
-    // Tablet devoces
+    // Tablet devices
     @media only screen and (max-width: 900px) {
         margin-bottom: 144px;
+
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
 
         &__container {
             padding-top: 104px;
@@ -78,6 +83,11 @@
     // Mobile devices
     @media only screen and (max-width:520px) {
         margin-bottom: 120px;
+
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
         &__container {
             display: flex;

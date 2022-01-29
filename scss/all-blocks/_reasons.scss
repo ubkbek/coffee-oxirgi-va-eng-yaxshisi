@@ -112,6 +112,11 @@
     @media only screen and (max-width:1190px) {
         margin-bottom: 434px;
 
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
         &__container {
             padding-top: 56px;
             padding-bottom: 368px;
@@ -192,6 +197,11 @@
     // mobile devices
     @media only screen and (max-width:660px) {
         margin-bottom: 717px;
+
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
         &__container {
             padding-top: 64px;

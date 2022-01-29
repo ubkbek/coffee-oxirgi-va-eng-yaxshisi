@@ -84,6 +84,11 @@
     @media only screen and (max-width: 1100px) {
         margin-bottom: 144px;
 
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
         &__container {
             padding-left: 0;
             padding-right: 0;
@@ -127,6 +132,11 @@
     // Mobile devices
     @media only screen and (max-width:720px) {
         margin-bottom: 120px;
+
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
         &__container {
             display: flex;

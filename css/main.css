@@ -541,6 +541,10 @@ img {
     padding-bottom: 54px;
     position: relative;
   }
+  .header .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .header__button {
     display: block;
   }
@@ -635,6 +639,10 @@ img {
   .hero {
     margin-bottom: 144px;
   }
+  .hero .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .hero__container {
     padding-top: 104px;
     padding-left: 58px;
@@ -661,6 +669,10 @@ img {
 @media only screen and (max-width: 520px) {
   .hero {
     margin-bottom: 120px;
+  }
+  .hero .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .hero__container {
     display: -webkit-box;
@@ -773,6 +785,10 @@ img {
     padding-top: 59px;
     margin-bottom: 144px;
   }
+  .collection .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .collection__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -825,6 +841,10 @@ img {
 @media only screen and (max-width: 720px) {
   .collection {
     margin-bottom: 120px;
+  }
+  .collection .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .collection__container {
     padding-top: 85px;
@@ -982,6 +1002,10 @@ img {
   .reasons {
     margin-bottom: 434px;
   }
+  .reasons .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .reasons__container {
     padding-top: 56px;
     padding-bottom: 368px;
@@ -1066,6 +1090,10 @@ img {
 @media only screen and (max-width: 660px) {
   .reasons {
     margin-bottom: 717px;
+  }
+  .reasons .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .reasons__container {
     padding-top: 64px;
@@ -1238,6 +1266,10 @@ img {
   .process {
     margin-bottom: 144px;
   }
+  .process .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .process__container {
     padding-left: 0;
     padding-right: 0;
@@ -1274,6 +1306,10 @@ img {
 @media only screen and (max-width: 720px) {
   .process {
     margin-bottom: 120px;
+  }
+  .process .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .process__container {
     display: -webkit-box;
@@ -1443,6 +1479,10 @@ img {
     padding-top: 55px;
     padding-bottom: 55px;
   }
+  .footer .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .footer__wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1465,6 +1505,10 @@ img {
   .footer {
     padding-top: 54px;
     padding-bottom: 54px;
+  }
+  .footer .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .footer__wrapper {
     width: 100%;
@@ -1561,6 +1605,10 @@ img {
   .about-hero {
     margin-bottom: 144px;
   }
+  .about-hero .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .about-hero__container {
     padding: 127px 233px 126px 58px;
   }
@@ -1576,6 +1624,10 @@ img {
 @media only screen and (max-width: 660px) {
   .about-hero {
     margin-bottom: 120px;
+  }
+  .about-hero .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .about-hero__container {
     padding: 111px 24px 87px 24px;
@@ -1649,6 +1701,10 @@ img {
     max-width: 339px;
     width: 100%;
   }
+  .commitment .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .commitment__heading {
     font-size: 32px;
     line-height: 48px;
@@ -1667,6 +1723,10 @@ img {
 @media only screen and (max-width: 800px) {
   .commitment {
     margin-bottom: 320px;
+  }
+  .commitment .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .commitment__container {
     -webkit-box-pack: justify;
@@ -1764,6 +1824,14 @@ img {
 @media only screen and (max-width: 1200px) {
   .quality {
     margin-bottom: 128px;
+  }
+  .quality .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .quality .container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .quality__container {
     padding: 224px 74px 83px 74px;
@@ -1920,6 +1988,10 @@ img {
   .headquarters {
     margin-bottom: 144px;
   }
+  .headquarters .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
   .headquarters__container {
     padding-left: 0px;
     padding-right: 0px;
@@ -1954,6 +2026,10 @@ img {
 @media only screen and (max-width: 760px) {
   .headquarters {
     margin-bottom: 120px;
+  }
+  .headquarters .container {
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .headquarters__container {
     display: -webkit-box;

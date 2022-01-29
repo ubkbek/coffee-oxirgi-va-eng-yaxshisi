@@ -84,6 +84,11 @@
     @media only screen and (max-width:1100px) {
         margin-bottom: 144px;
 
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
         &__container {
             padding-left: 0px;
             padding-right: 0px;
@@ -128,6 +133,11 @@
     @media only screen and (max-width:760px) {
         margin-bottom: 120px;
 
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
         &__container {
             display: flex;
             flex-direction: column;
@@ -171,16 +181,5 @@
         &__inner-list {
             max-width: 100%;
         }
-
-        &__inner-item {
-        }
-
-        &__item2 {
-        }
-
-        &__item3 {
-        }
-
-
     }
 }

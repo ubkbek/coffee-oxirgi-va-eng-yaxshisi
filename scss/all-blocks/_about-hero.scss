@@ -38,6 +38,11 @@
     @media only screen and (max-width:900px) {
         margin-bottom: 144px;
 
+        .container{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
         &__container {
             padding: 127px 233px 126px 58px;
         }
@@ -56,6 +61,11 @@
     // Mobile devices
     @media only screen and (max-width:660px) {
         margin-bottom: 120px;
+
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
         &__container {
             padding: 111px 24px 87px 24px;

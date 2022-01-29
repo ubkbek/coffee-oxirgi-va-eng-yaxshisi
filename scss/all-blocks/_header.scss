@@ -64,6 +64,11 @@
         padding-bottom: 54px;
         position: relative;
 
+        .container{
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
         &__button {
             display: block;
         }
